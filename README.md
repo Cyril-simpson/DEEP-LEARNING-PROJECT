@@ -14,4 +14,4 @@
 
 *OUTPUT*:
 
-✅ Test Accuracy: 0.99
+Test Accuracy: 0.99
