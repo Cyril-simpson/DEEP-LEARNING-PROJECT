@@ -35,7 +35,7 @@ def train_model(model, x_train, y_train, x_test, y_test, epochs=5):
 def evaluate_model(model, x_test, y_test):
     """Evaluates model on test dataset and returns accuracy."""
     test_loss, test_acc = model.evaluate(x_test, y_test, verbose=0)
-    print(f"✅ Test Accuracy: {test_acc:.2f}")
+    print(f"Test Accuracy: {test_acc:.2f}")
 
 def plot_training_history(history):
     """Plots training vs validation accuracy."""
